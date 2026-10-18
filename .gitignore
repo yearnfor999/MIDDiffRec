@@ -1,0 +1,33 @@
+# Local editor and Python caches
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local environment and run state
+.env
+.env.*
+!.env.example
+*.pid
+*.log
+
+# Datasets, checkpoints, and generated run artifacts
+/datasets/
+/output/
+/outputs/
+/checkpoints/
+/logs/
+/runs/
+/wandb/
+/long_tail_results/
+/popularity_analysis/
+/visualizations/
+/frequency_diagnostic/
+/low_frequency/
+/diagnostic/
+*.pt
+*.pth
+*.ckpt
