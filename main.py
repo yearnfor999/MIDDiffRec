@@ -111,9 +111,9 @@ def get_args():
                         help="use T-step reverse process for contrastive learning (like 修改原版)")
     
     # BSARec需要的参数
-    parser.add_argument("--alpha", type=float, default=0.4,
+    parser.add_argument("--alpha", type=float, default=0.7,
                         help="BSARec frequency layer alpha parameter")
-    parser.add_argument("--c", type=int, default=10,
+    parser.add_argument("--c", type=int, default=5,
                         help="BSARec frequency layer cutoff parameter for low/high frequency separation")
 
     # ablation study
